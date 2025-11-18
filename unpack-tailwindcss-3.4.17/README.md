@@ -76,3 +76,25 @@ TailwindCSS è rilasciato sotto licenza MIT. Consulta il repository ufficiale pe
 ## 📅 Data di Creazione
 
 Repository creata il: $(date +"%Y-%m-%d")
+
+## 📤 Come Pubblicare questa Repository
+
+Per pubblicare questa repository su GitHub o altri servizi Git, consulta il file **[PUBBLICAZIONE.md](./PUBBLICAZIONE.md)** per una guida passo-passo completa.
+
+### Quick Start (GitHub)
+
+```bash
+# 1. Inizializza Git
+git init
+
+# 2. Aggiungi tutti i file
+git add .
+
+# 3. Crea il primo commit
+git commit -m "Initial commit: TailwindCSS 3.4.17 unpacked"
+
+# 4. Crea la repository su GitHub, poi:
+git remote add origin https://github.com/TUO_USERNAME/unpack-tailwindcss-3.4.17.git
+git branch -M main
+git push -u origin main
+```
