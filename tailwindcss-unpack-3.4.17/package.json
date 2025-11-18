@@ -1,0 +1,33 @@
+{
+  "name": "tailwindcss-unpack-3.4.17",
+  "version": "3.4.17",
+  "description": "Unpacked version of TailwindCSS 3.4.17 from CDN (https://cdn.tailwindcss.com/3.4.17)",
+  "main": "src/tailwindcss-3.4.17.min.js",
+  "type": "module",
+  "scripts": {
+    "format": "prettier --write src/*.js",
+    "lint": "eslint src/*.js"
+  },
+  "keywords": [
+    "tailwindcss",
+    "tailwind",
+    "css",
+    "unpack",
+    "cdn",
+    "3.4.17"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "src/",
+    "README.md",
+    "LICENSE"
+  ]
+}

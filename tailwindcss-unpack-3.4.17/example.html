@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TailwindCSS 3.4.17 - Esempio</title>
+    <script src="./src/tailwindcss-3.4.17.min.js"></script>
+</head>
+<body class="bg-gray-100 min-h-screen">
+    <div class="container mx-auto px-4 py-8">
+        <header class="bg-white rounded-lg shadow-md p-6 mb-6">
+            <h1 class="text-4xl font-bold text-gray-800 mb-2">
+                TailwindCSS 3.4.17
+            </h1>
+            <p class="text-gray-600">
+                Esempio di utilizzo della versione unpacked
+            </p>
+        </header>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow">
+                <h2 class="text-2xl font-semibold text-blue-600 mb-4">Card 1</h2>
+                <p class="text-gray-700">
+                    Questo è un esempio di card con TailwindCSS.
+                </p>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow">
+                <h2 class="text-2xl font-semibold text-green-600 mb-4">Card 2</h2>
+                <p class="text-gray-700">
+                    Le utility classes rendono lo styling semplice e veloce.
+                </p>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow">
+                <h2 class="text-2xl font-semibold text-purple-600 mb-4">Card 3</h2>
+                <p class="text-gray-700">
+                    Responsive design integrato con classi come md: e lg:.
+                </p>
+            </div>
+        </div>
+
+        <div class="mt-8 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg p-8 text-white">
+            <h2 class="text-3xl font-bold mb-4">Gradiente</h2>
+            <p class="text-lg">
+                TailwindCSS supporta anche gradienti e molte altre funzionalità avanzate.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
