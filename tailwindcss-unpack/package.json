@@ -1,0 +1,24 @@
+{
+  "name": "tailwindcss-cdn-unpack",
+  "version": "3.4.17",
+  "description": "Mirror self-hosted del runtime cdn.tailwindcss.com/3.4.17 pronto per essere caricato su unpkg o jsDelivr.",
+  "type": "module",
+  "scripts": {
+    "fetch:cdn": "node scripts/fetch-cdn.mjs",
+    "fetch:cdn:default": "node scripts/fetch-cdn.mjs 3.4.17"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "tailwindcss",
+    "cdn",
+    "mirror",
+    "unpkg",
+    "jsdelivr"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}
