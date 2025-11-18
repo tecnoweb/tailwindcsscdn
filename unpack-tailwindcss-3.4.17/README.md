@@ -4,8 +4,9 @@ Repository contenente la versione unpacked di TailwindCSS 3.4.17 scaricata dalla
 
 ## 📦 Contenuto
 
-Questa repository contiene il file JavaScript completo di TailwindCSS versione 3.4.17 scaricato da:
-- **CDN**: https://cdn.tailwindcss.com/3.4.17
+Questa repository contiene i file JavaScript completi di TailwindCSS versione 3.4.17 scaricati da:
+- **CDN ufficiale**: https://cdn.tailwindcss.com/3.4.17
+- **unpkg.com**: https://unpkg.com/tailwindcss@3.4.17
 - **Versione**: 3.4.17
 - **Formato**: JavaScript minificato
 
@@ -14,7 +15,12 @@ Questa repository contiene il file JavaScript completo di TailwindCSS versione 3
 ```
 unpack-tailwindcss-3.4.17/
 ├── dist/
-│   └── tailwindcss-3.4.17.js    # File JavaScript completo
+│   ├── tailwindcss-3.4.17.js    # File JavaScript completo (CDN ufficiale)
+│   ├── SHA256SUM.txt            # Checksum del file CDN
+│   └── unpkg/                    # File da unpkg.com
+│       ├── tailwindcss-3.4.17.js
+│       ├── SHA256SUM.txt
+│       └── README.md
 ├── docs/                         # Documentazione aggiuntiva
 ├── README.md                     # Questo file
 └── package.json                  # Metadati del progetto
@@ -24,14 +30,24 @@ unpack-tailwindcss-3.4.17/
 
 ### Includere nel tuo progetto HTML
 
+**Da CDN ufficiale:**
 ```html
 <script src="https://cdn.tailwindcss.com/3.4.17"></script>
 ```
 
-Oppure utilizzare il file locale:
+**Da unpkg.com:**
+```html
+<script src="https://unpkg.com/tailwindcss@3.4.17"></script>
+```
 
+**File locale (CDN):**
 ```html
 <script src="./dist/tailwindcss-3.4.17.js"></script>
+```
+
+**File locale (unpkg):**
+```html
+<script src="./dist/unpkg/tailwindcss-3.4.17.js"></script>
 ```
 
 ### Utilizzo con Node.js
