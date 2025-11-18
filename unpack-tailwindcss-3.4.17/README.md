@@ -79,7 +79,30 @@ Repository creata il: $(date +"%Y-%m-%d")
 
 ## 📤 Come Pubblicare questa Repository
 
-Per pubblicare questa repository su GitHub o altri servizi Git, consulta il file **[PUBBLICAZIONE.md](./PUBBLICAZIONE.md)** per una guida passo-passo completa.
+### 🌐 Pubblicare su unpkg.com (Raccomandato)
+
+**unpkg.com serve automaticamente i pacchetti npm!** Per pubblicare su unpkg:
+
+1. **Pubblica su npm** (vedi **[PUBBLICAZIONE_UNPKG.md](./PUBBLICAZIONE_UNPKG.md)**)
+2. **Automaticamente disponibile su unpkg.com** 🎉
+
+**Script rapido:**
+```bash
+./PUBBLICA_SU_NPM.sh
+```
+
+**Manuale:**
+```bash
+npm login
+npm publish --access public
+```
+
+Dopo la pubblicazione, sarà disponibile su:
+- `https://unpkg.com/@tuousername/unpack-tailwindcss-3.4.17`
+
+### 📂 Pubblicare su GitHub
+
+Per pubblicare questa repository su GitHub, consulta il file **[PUBBLICAZIONE.md](./PUBBLICAZIONE.md)** per una guida passo-passo completa.
 
 ### Quick Start (GitHub)
 
