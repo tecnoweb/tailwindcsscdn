@@ -1,0 +1,28 @@
+{
+  "name": "tailwindcss-cdn-unpack",
+  "version": "3.4.17",
+  "description": "Mirror autogestito dello script https://cdn.tailwindcss.com/3.4.17 per poterlo pubblicare su npm/unpkg o servirlo da una propria CDN.",
+  "main": "tailwindcss-3.4.17.js",
+  "files": [
+    "tailwindcss-3.4.17.js",
+    "checksums.txt",
+    "LICENSE",
+    "README.md"
+  ],
+  "keywords": [
+    "tailwindcss",
+    "cdn",
+    "mirror",
+    "unpkg",
+    "self-hosted"
+  ],
+  "scripts": {
+    "verify": "sha256sum --check checksums.txt"
+  ],
+  "license": "MIT",
+  "author": "Tailwind Labs (codice originale) — imposta questo campo con i dati del tuo mirror",
+  "homepage": "https://tailwindcss.com",
+  "bugs": {
+    "url": "https://github.com/tailwindlabs/tailwindcss/issues"
+  }
+}
